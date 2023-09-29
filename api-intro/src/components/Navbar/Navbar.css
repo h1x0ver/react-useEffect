@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+    height: 80px;
+    background-color: gray;
+}
+
+.navs a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+}
+.nav-logo a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.nav-logo a:hover {
+    color: black;
+}
+
+.navs a:hover{
+    color: black;
+}
